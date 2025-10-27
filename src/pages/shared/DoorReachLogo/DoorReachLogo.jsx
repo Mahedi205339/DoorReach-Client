@@ -5,7 +5,7 @@ const DoorReachLogo = () => {
     return (
         <div className='flex items-end'>
                 <img src={logo} alt="" />
-            <p className='text-3xl font-semibold'>Door<span className='italic bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent"'>Reach</span> </p>
+            <p className='text-2xl font-semibold bg-gradient-to-r from-orange-700 to-orange-500 bg-clip-text text-transparent'>Door<span className='italic text-3xl '>Reach</span> </p>
         </div>
     )
 }
